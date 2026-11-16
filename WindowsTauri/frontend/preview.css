@@ -1,0 +1,40 @@
+/* The prototype uses only synthetic schedules and local interaction. */
+.interactive-preview :is(
+[data-action="open"][data-payload*='"view":"activity"'],
+[data-action="open"][data-payload*='"view":"pinned"'],
+[data-action="createEvent"],
+[data-action="freeSlot"],
+[data-action="browser"],
+[data-action="join"],
+[data-action="edit"],
+[data-action="copyLink"],
+[data-action="togglePin"],
+[data-action="meetingColor"],
+[data-action="eventMenu"],
+[data-action="reminderEditor"]) {
+    display: none !important;
+}
+
+.interactive-preview .calendar-app > .footer > .spacer {
+    font-size: 0;
+}
+
+.interactive-preview .calendar-app > .footer > .spacer::before,
+.interactive-preview .tray-footer > .spacer::before {
+    content: 'Демонстрационные данные';
+    font-size: 11px;
+    color: var(--muted);
+}
+
+.interactive-preview .tray-footer > .spacer {
+    text-align: right;
+}
+
+.interactive-preview :is(.search-view > header h2, .details-content > header h1)::after {
+    content: 'Демонстрационные данные';
+    display: block;
+    padding-top: 4px;
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--muted);
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "CalendarBar",
+  "identifier": "com.nbord.CalendarBar.Tauri",
+  "version": "1.0.0",
+  "build": {
+    "beforeBuildCommand": "node scripts/prepare-app.cjs",
+    "beforeDevCommand": "node scripts/prepare-app.cjs",
+    "frontendDist": "../web-app"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src ipc: http://ipc.localhost; object-src 'none'; base-uri 'none'; form-action 'none'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis"
+    ],
+    "publisher": "nbord",
+    "resources": {
+      "icons/icon.png": "calendarbar-notification.png"
+    },
+    "icon": [
+      "icons/icon.png",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "webviewInstallMode": {
+        "type": "downloadBootstrapper",
+        "silent": true
+      },
+      "nsis": {
+        "installMode": "currentUser",
+        "languages": [
+          "Russian",
+          "English"
+        ],
+        "installerHooks": "windows-hooks.nsh"
+      }
+    }
+  }
+}

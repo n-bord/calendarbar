@@ -1,0 +1,14 @@
+{
+  "bundle": {
+    "windows": {
+      "webviewInstallMode": {
+        "type": "skip",
+        "silent": null
+      },
+      "nsis": {
+        "installMode": "currentUser",
+        "installerHooks": "windows-per-user-hooks.nsh"
+      }
+    }
+  }
+}

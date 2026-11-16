@@ -1,0 +1,17 @@
+{
+  "identifier": "calendarbar",
+  "description": "Receive calendar data updates in local app windows.",
+  "windows": [
+    "calendar",
+    "search",
+    "meeting",
+    "tray",
+    "settings",
+    "pinned",
+    "activity"
+  ],
+  "permissions": [
+    "core:event:allow-listen",
+    "core:event:allow-unlisten"
+  ]
+}
