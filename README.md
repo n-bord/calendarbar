@@ -4,10 +4,6 @@
 </h1>
 
 <p align="center">
-  <img src="docs/screenshots/macos-calendar.png" width="860" alt="CalendarBar на macOS — недельное расписание и карточка встречи с демо-данными" />
-</p>
-
-<p align="center">
   <a href="https://github.com/n-bord/calendarbar/releases"><img alt="Релиз CalendarBar" src="https://img.shields.io/github/v/release/n-bord/calendarbar?color=7865d6" /></a>
   <a href="https://github.com/n-bord/calendarbar/releases"><img alt="Скачивания" src="https://img.shields.io/github/downloads/n-bord/calendarbar/total?color=1a9d58" /></a>
   <a href="https://github.com/n-bord/calendarbar/stargazers"><img alt="Звёзды на GitHub" src="https://img.shields.io/github/stars/n-bord/calendarbar?color=e6b341" /></a>
@@ -50,6 +46,10 @@
 | --- | --- | --- |
 | **Панель** | ![Панель CalendarBar для macOS](docs/screenshots/macos-menu.png) | ![Панель CalendarBar для Windows](docs/screenshots/windows-tray.png) |
 | **Настройки** | ![Настройки CalendarBar для macOS](docs/screenshots/macos-settings.png) | ![Настройки CalendarBar для Windows](docs/screenshots/windows-settings.png) |
+
+### Календарь macOS
+
+![Неделя и карточка встречи в CalendarBar для macOS](docs/screenshots/macos-calendar.png)
 
 ### Календарь Windows
 
