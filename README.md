@@ -8,9 +8,25 @@
 </p>
 
 <p align="center">
-  Яндекс Календарь в строке меню macOS и в трее Windows.<br />
-  Расписание, напоминания и быстрый вход в звонки.
+  <a href="https://github.com/n-bord/calendarbar/releases"><img alt="Релиз CalendarBar" src="https://img.shields.io/github/v/release/n-bord/calendarbar?color=7865d6" /></a>
+  <a href="https://github.com/n-bord/calendarbar/releases"><img alt="Скачивания" src="https://img.shields.io/github/downloads/n-bord/calendarbar/total?color=1a9d58" /></a>
+  <a href="https://github.com/n-bord/calendarbar/stargazers"><img alt="Звёзды на GitHub" src="https://img.shields.io/github/stars/n-bord/calendarbar?color=e6b341" /></a>
+  <a href="https://github.com/n-bord/calendarbar/issues"><img alt="Задачи на GitHub" src="https://img.shields.io/github/issues/n-bord/calendarbar?color=3989d5" /></a>
+  <a href="LICENSE"><img alt="Лицензия MIT" src="https://img.shields.io/badge/license-MIT-697386" /></a>
 </p>
+
+<p align="center">
+  <img alt="macOS 13+" src="https://img.shields.io/badge/macOS-13%2B-353941?logo=apple&amp;logoColor=white" />
+  <img alt="Windows 10 и 11" src="https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4" />
+  <img alt="Независимый клиент" src="https://img.shields.io/badge/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C-%D0%BD%D0%B5%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82-F4C843" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/n-bord/calendarbar/releases"><img alt="Скачать CalendarBar для macOS" src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C_%D0%B4%D0%BB%D1%8F-macOS-262a30?style=for-the-badge&amp;logo=apple&amp;logoColor=white" /></a>
+  <a href="https://github.com/n-bord/calendarbar/releases"><img alt="Скачать CalendarBar для Windows" src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C_%D0%B4%D0%BB%D1%8F-Windows-0078D4?style=for-the-badge" /></a>
+</p>
+
+**CalendarBar** — независимый клиент для Яндекс Календаря с быстрым подключением к встречам в **Яндекс Телемосте**. Расписание и отсчёт до встречи всегда под рукой в строке меню macOS и в трее Windows.
 
 ## Зачем я сделал CalendarBar
 
