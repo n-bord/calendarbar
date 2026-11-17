@@ -3,7 +3,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const project = path.resolve(__dirname, '..');
-const upstream = path.resolve(project, '../Windows/src');
+const upstream = path.resolve(project, 'renderer');
 const output = path.join(project, 'web-app');
 const entry = fs.readFileSync(path.join(upstream, 'index.html'), 'utf8');
 const scripts = '    <script src="ui.js" defer></script>';

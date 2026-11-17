@@ -38,4 +38,15 @@ npm run build:windows
 
 Вариант для корпоративных ПК собирается командой `npm run build:windows:per-user`. На Mac добавьте `-- --runner cargo-xwin`. Обе команды выводят файл с одним именем, поэтому при сборке обоих вариантов сохраните первый файл в другой папке перед второй сборкой.
 
-Команда `npm run start:electron` по-прежнему запускает демонстрационный календарь проекта через Electron для сравнения интерфейса прототипа. Для неё нужны зависимости из `CalendarBar\Windows`.
+## Демо интерфейса
+
+Из корня репозитория:
+
+```sh
+npm ci --prefix WindowsTauri/demo
+npm --prefix WindowsTauri run start:electron
+```
+
+Для галереи README запустите `npm --prefix WindowsTauri run start:electron -- --screenshots`. Скриншоты сохранятся в `docs/screenshots`. Демо использует вымышленные данные, а производственная сборка берёт интерфейс из `renderer/`.
+
+[Вернуться к README](../README.md)

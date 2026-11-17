@@ -12,6 +12,8 @@
 	<string>com.nbord.CalendarBar</string>
 	<key>CFBundleName</key>
 	<string>CalendarBar</string>
+	<key>CalendarBarProjectURL</key>
+	<string>https://github.com/n-bord/calendarbar</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

@@ -4,12 +4,12 @@ const path = require('node:path');
 const fs = require('node:fs');
 const os = require('node:os');
 const { spawn } = require('node:child_process');
-const dependencies = path.join(__dirname, '../../Windows');
+const dependencies = path.join(__dirname, '../demo');
 let executable;
 try {
   executable = require(require.resolve('electron', { paths: [dependencies] }));
 } catch {
-  console.error('Сначала установите зависимости командой npm ci в папке CalendarBar/Windows.');
+  console.error('Сначала установите зависимости командой npm ci --prefix WindowsTauri/demo из корня репозитория.');
   process.exit(1);
 }
 const args = process.argv.slice(2);

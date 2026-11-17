@@ -4,7 +4,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const prototype = path.resolve(__dirname, '..');
-const upstream = path.join(prototype, '..', 'Windows', 'src');
+const upstream = path.join(prototype, 'renderer');
 const source = path.join(prototype, 'frontend');
 const output = path.join(prototype, 'web-dist');
 const { version } = require('../package.json');

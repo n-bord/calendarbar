@@ -21,6 +21,7 @@
       "nsis"
     ],
     "publisher": "nbord",
+    "homepage": "https://github.com/n-bord/calendarbar",
     "resources": {
       "icons/icon.png": "calendarbar-notification.png"
     },

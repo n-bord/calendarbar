@@ -931,7 +931,9 @@ function settingsView() {
     return '<div class="settings"><nav class="settings-nav stack" aria-label="Разделы настроек">' +
         Object.entries(pages).map(([key, [title, glyph]]) => '<button type="button" class="plain" ' +
             (page === key ? 'aria-current="page" ' : '') + 'data-action="settingsPage" data-payload="' + encoded({ page: key }) + '">' + icon(glyph) + html(title) + '</button>').join('') +
-        '<span class="spacer"></span><span class="note">Версия ' + html(state.version) +
+        '<span class="spacer"></span>' +
+        button('Проект на GitHub', 'browser', { url: 'https://github.com/n-bord/calendarbar' }, { className: 'link' }) +
+        '<span class="note">Версия ' + html(state.version) +
         '</span></nav><section class="settings-pane stack" data-scroll="settings-' + page + '">' + panes[page]() + '</section></div>';
 }
 

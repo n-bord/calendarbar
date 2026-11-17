@@ -1,0 +1,25 @@
+# Build output and local dependencies
+/.build/
+/.swiftpm/
+/dist/
+node_modules/
+/WindowsTauri/src-tauri/gen/
+/WindowsTauri/src-tauri/target/
+/WindowsTauri/web-app/
+/WindowsTauri/web-dist/
+
+# Local settings, credentials and exported calendars
+.DS_Store
+.env
+.env.*
+*.local.json
+calendarbar.json
+!/WindowsTauri/src-tauri/capabilities/calendarbar.json
+*.ics
+*.p12
+*.pfx
+*.pem
+*.key
+*.xcuserstate
+xcuserdata/
+/.codex/

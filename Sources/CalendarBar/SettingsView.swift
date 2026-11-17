@@ -63,6 +63,12 @@ struct SettingsView: View {
                 .accessibilityAddTraits(selected ? .isSelected : [])
             }
             Spacer(minLength: 10)
+            if let address = Bundle.main.object(forInfoDictionaryKey: "CalendarBarProjectURL") as? String,
+               let url = URL(string: address) {
+                Link("Проект на GitHub", destination: url)
+                    .font(.caption)
+                    .padding(.horizontal, 9)
+            }
             if let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String {
                 Text("Версия " + version)
                     .font(.caption).foregroundStyle(.secondary)
